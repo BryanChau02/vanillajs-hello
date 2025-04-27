@@ -18,7 +18,7 @@ function getRandom(anyArray){
   let max = anyArray.length -1;
   let min = 0;
   let random = getRandomNumber(min, max);
-  return anyArray(random);
+  return anyArray[random];
 }
 
 window.onload = function() {
